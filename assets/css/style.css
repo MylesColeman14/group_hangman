@@ -2,3 +2,16 @@ body {
 	font-family: 'Princess Sofia', cursive;
 	
 }
+
+#title {
+	text-align: center;
+	font-size: 32px;
+	color: white;
+}
+
+#rightSide,
+#leftSide {
+	width: 430px;
+	margin-left: 10px;
+	margin-right: 10px;
+}

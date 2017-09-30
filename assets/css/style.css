@@ -9,15 +9,15 @@ body {
 
 .middle {
 	margin: 0 auto;
-	border: 5px solid white;
 	width: 900px;
 }
 
 #title {
 	text-align: center;
-	font-size: 48px;
+	font-size: 65px;
 	color: white;
 	padding: 15px;
+
 }
 
 #leftSide {
@@ -31,7 +31,8 @@ body {
 	border-radius: 15%;
 	padding-left: 40px;
 	padding-top: 15px;
-
+	font-size: 25pt;
+	font-weight: bold;
 
 }
 #rightSide {

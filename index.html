@@ -31,17 +31,38 @@
 	</header>
 
 	<p>
-		Guess this word:
-	</p>
+        Guess this word:
+    </p>
 
-	<p>
-		Past Guesses:
-	</p>
+    <p>
+        Wins: <span id="#victory"></span>
+    </p>
 
-	<p>
-		Remaining Guesses: <span id="guesses"></span>
-	</p>
+    <p>
+        Losses: <span id="#defeat"></span>
+    </p>
 
+    <p>
+        Past Guesses:<span id="past_guesses"></span>
+    </p>
+
+    <p>
+        Remaining Guesses: <span id="guesses"></span>
+    </p>
+
+
+    <script type="text/javascript">
+
+    var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+
+      var guesses_left = 10;
+      $("#guesses_remain").text(guesses_left);
+      var wins = 0;
+      $("#victory").text(wins);
+      var losses = 0;
+      $("#defeat").text(losses);
+
+      </script>
 
 
 </body>

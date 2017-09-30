@@ -21,3 +21,12 @@
     randomWord = hallow[randomNum].toLowerCase();
     console.log(“The word is: ” + randomWord);
 	}
+
+
+    // //Checks if keyopress
+    // document.onkeyup = function(event){
+    //     if(event.keyCode <= 90 && event.keyCode >= 65 && wrongLetter.includes(event.key) == false){
+    //         wordSearch(event.key); // this fucntion can be replaced with whatever we need
+    //     }
+    // }
+    // //===========================

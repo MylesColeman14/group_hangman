@@ -1,5 +1,6 @@
 body {
 	font-family: 'Princess Sofia', cursive;
+	background-color: black;
 	
 }
 
@@ -9,10 +10,21 @@ body {
 	color: white;
 }
 
-#rightSide,
 #leftSide {
 	width: 430px;
+	height: 500px;
 	margin-left: 10px;
 	margin-right: 10px;
 	background-color: white;
+	border: 2px solid green;
+}
+#rightSide {
+	width: 430px;
+	height: 500px;
+	padding: 30px3;
+	margin-left: 10px,
+	margin-right: 10px;
+	background-color: white;
+	border: 2px solid green;
+	float: right;
 }

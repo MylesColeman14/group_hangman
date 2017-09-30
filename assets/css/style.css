@@ -6,8 +6,9 @@ body {
 
 #title {
 	text-align: center;
-	font-size: 32px;
+	font-size: 48px;
 	color: white;
+	padding: 15px;
 }
 
 #leftSide {
